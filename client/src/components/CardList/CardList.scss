@@ -1,0 +1,149 @@
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    .topmid{
+        font-size: 24px;
+        font-weight: bolder;
+    }
+    .topbottom{
+        font-size: 16px;
+        font-weight: bolder;
+        color: grey;
+    }
+}
+.mid{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 2%;
+    .search{
+        padding: 10px;
+        width: 40%;
+    }
+    .filter{
+        padding: 10px;
+        color: white;
+        background-color: orange;
+    }
+}
+.cardlist{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2%;
+    flex-wrap: wrap;
+    gap: 30px;
+    .card{
+        width: 28%;
+        padding: 5px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .img1{
+            width: 100%;
+        }
+    }
+}
+.room2{
+    display: flex;
+    gap: 10px;
+}
+.cardname{
+    text-align: center;
+    padding: 2%;
+    font-size: 24px;
+    font-weight: bolder;
+}.carddesc{
+    text-align: center;
+    font-size: 16px;
+}
+.cardmain{
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    flex-wrap: wrap;
+    .room{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 30%;
+    }
+}
+.orange{
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: orange;
+    color: black;
+}
+.cardbtns{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cardprice{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    padding: 3%;
+    align-items: center;
+    gap: 20px;
+    
+}
+.svg{
+    width: 100%;
+}
+.cardpriceleft{
+    width: 7%;
+}
+.cardpriceright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.righttop{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.rightprice{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.card{
+    position: relative;
+}
+.featured{
+    position: absolute;
+    padding: 10px;
+    p{
+        background-color: orange;
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+    }
+    top: 5px;
+    left: -5px;
+}
+.mybtns{
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    button{
+        padding: 10px;
+        background-color: orange;
+    color: white;
+
+        border: none;
+    }
+}
+.abc{
+    text-decoration: none;
+    color: white;
+}
+.card{
+    background-color: whitesmoke;
+}

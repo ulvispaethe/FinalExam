@@ -1,0 +1,18 @@
+.wishlist{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2%;
+    gap: 30px;
+    .card{
+        width: 30%;
+        .img1{
+            width: 100%;
+        }
+    }
+}
+.basketdel{
+    padding: 10px;
+    background-color: orange;
+    border: none;
+}

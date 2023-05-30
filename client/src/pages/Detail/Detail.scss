@@ -1,0 +1,13 @@
+.detail1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 2%;
+    gap: 30px;
+    .card{
+        width: 30%;
+        .img1{
+            width: 100%;
+        }
+    }
+}
